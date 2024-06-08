@@ -1,0 +1,30 @@
+.navbar1-outer{
+    /* div color,width,height */
+    width: 1000px;
+    height: 40px;
+    background-color: #192a56;
+
+    /* div move to top middle */
+    position: fixed; 
+    top: 10px;
+    left: 175px;
+    z-index: 1000; 
+    border-radius: 10px;
+    
+    /* div add shadow */
+    box-shadow: 0 4px 8px rgba(0, 206, 201, 1.5);
+    
+
+
+}
+
+.btn-outline-warning {
+
+    /* Override bootstrap css */
+    position: absolute; 
+    width: 10% !important;
+    height: 90% !important;
+    right: 40px !important;
+    border-radius: 30px !important;
+    font-size: smaller !important;
+}
